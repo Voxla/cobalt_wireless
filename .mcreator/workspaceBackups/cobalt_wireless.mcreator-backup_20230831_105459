@@ -1,0 +1,440 @@
+{
+  "mod_elements": [
+    {
+      "name": "Cobaltblocksignal",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltblocksignal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cobaltwireless/block/CobaltblocksignalBlock.java",
+          "src/main/resources/assets/cobalt_wireless/models/block/cobaltblocksignal.json",
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltblocksignal.json",
+          "src/main/resources/assets/cobalt_wireless/blockstates/cobaltblocksignal.json",
+          "src/main/java/net/mcreator/cobaltwireless/block/entity/CobaltblocksignalBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltblockwirelessoff",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltblockwirelessoff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltblockwirelessoff.json",
+          "src/main/java/net/mcreator/cobaltwireless/block/CobaltblockwirelessoffBlock.java",
+          "src/main/resources/assets/cobalt_wireless/blockstates/cobaltblockwirelessoff.json",
+          "src/main/resources/assets/cobalt_wireless/models/block/cobaltblockwirelessoff.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltblockwirelesson",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltblockwirelesson",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltblockwirelesson.json",
+          "src/main/java/net/mcreator/cobaltwireless/block/CobaltblockwirelessonBlock.java",
+          "src/main/resources/assets/cobalt_wireless/blockstates/cobaltblockwirelesson.json",
+          "src/main/resources/assets/cobalt_wireless/models/block/cobaltblockwirelesson.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltwrench",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltwrench",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cobaltwireless/item/CobaltwrenchItem.java",
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltwrench.json"
+        ]
+      }
+    },
+    {
+      "name": "CobaltwrenchRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltwrench_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cobaltwireless/procedures/CobaltwrenchRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cobaltblock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cobalt_wireless/models/block/cobaltblock.json",
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltblock.json",
+          "src/main/resources/assets/cobalt_wireless/blockstates/cobaltblock.json",
+          "src/main/java/net/mcreator/cobaltwireless/block/CobaltblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CobaltblocksignalRedstoneOn",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltblocksignal_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cobaltwireless/procedures/CobaltblocksignalRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CobaltblocksignalRedstoneOff",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltblocksignal_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cobaltwireless/procedures/CobaltblocksignalRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cobaltore",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cobaltwireless/block/CobaltoreBlock.java",
+          "src/main/resources/data/cobalt_wireless/worldgen/configured_feature/cobaltore.json",
+          "src/main/resources/data/cobalt_wireless/worldgen/placed_feature/cobaltore.json",
+          "src/main/resources/assets/cobalt_wireless/blockstates/cobaltore.json",
+          "src/main/java/net/mcreator/cobaltwireless/world/features/ores/CobaltoreFeature.java",
+          "src/main/resources/assets/cobalt_wireless/models/block/cobaltore.json",
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltore.json",
+          "src/main/resources/data/cobalt_wireless/forge/biome_modifier/cobaltore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltshard",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltshard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cobaltwireless/item/CobaltshardItem.java",
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltshard.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltdeepslateore",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltdeepslateore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cobalt_wireless/blockstates/cobaltdeepslateore.json",
+          "src/main/resources/data/cobalt_wireless/forge/biome_modifier/cobaltdeepslateore_biome_modifier.json",
+          "src/main/resources/data/cobalt_wireless/worldgen/configured_feature/cobaltdeepslateore.json",
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltdeepslateore.json",
+          "src/main/java/net/mcreator/cobaltwireless/block/CobaltdeepslateoreBlock.java",
+          "src/main/java/net/mcreator/cobaltwireless/world/features/ores/CobaltdeepslateoreFeature.java",
+          "src/main/resources/assets/cobalt_wireless/models/block/cobaltdeepslateore.json",
+          "src/main/resources/data/cobalt_wireless/worldgen/placed_feature/cobaltdeepslateore.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltdust",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltdust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cobaltwireless/item/CobaltdustItem.java",
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltdust.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltingot",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltingot.json",
+          "src/main/java/net/mcreator/cobaltwireless/item/CobaltingotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltdustblock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltdustblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cobalt_wireless/blockstates/cobaltdustblock.json",
+          "src/main/java/net/mcreator/cobaltwireless/block/CobaltdustblockBlock.java",
+          "src/main/resources/assets/cobalt_wireless/models/block/cobaltdustblock.json",
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltdustblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltdustrecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltdustrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cobalt_wireless/recipes/cobaltdustrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltingotrecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltingotrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cobalt_wireless/recipes/cobaltingotrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltingotrecipeblast",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltingotrecipeblast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cobalt_wireless/recipes/cobaltingotrecipeblast.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltwrenchrecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltwrenchrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cobalt_wireless/recipes/cobaltwrenchrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltsword",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltsword.json",
+          "src/main/java/net/mcreator/cobaltwireless/item/CobaltswordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltpickaxe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cobaltwireless/item/CobaltpickaxeItem.java",
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltpickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltswordrecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltswordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cobalt_wireless/recipes/cobaltswordrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltpickaxerecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltpickaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cobalt_wireless/recipes/cobaltpickaxerecipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.cobalt_journey.cobaltdust": "Cobalt Dust",
+      "item.cobalt_wireless.cobaltdust": "Cobalt Dust",
+      "block.cobalt_journey.cobaltblocksignal": "Cobalt Signal Block",
+      "block.cobalt_wireless.cobaltblockwirelesson": "Cobalt Wireless Block",
+      "block.cobalt_wireless.cobaltblockwirelessoff": "Cobalt Wireless Block",
+      "block.cobalt_journey.cobaltblockwirelesson": "Cobalt Wireless Block",
+      "block.cobalt_journey.cobaltblock": "Cobalt Block",
+      "item.cobalt_journey.cobaltwrench": "Cobalt Wrench",
+      "item.cobalt_wireless.cobaltshard": "Cobalt Shard",
+      "block.cobalt_wireless.cobaltore": "Cobalt Ore",
+      "item.cobalt_wireless.cobaltpickaxe": "Cobalt Pickaxe",
+      "block.cobalt_wireless.cobaltdustblock": "Block of Cobalt Dust",
+      "block.cobalt_wireless.cobaltblock": "Block of Cobalt",
+      "item.cobalt_journey.cobaltingot": "Cobalt Ingot",
+      "block.cobalt_wireless.cobaltdeepslateore": "Deepslate Cobalt Ore",
+      "block.cobalt_journey.cobaltdeepslateore": "Cobalt Block",
+      "item.cobalt_journey.cobaltshard": "Cobalt Shard",
+      "item.cobalt_wireless.cobaltwrench": "Cobalt Wrench",
+      "block.cobalt_journey.cobaltore": "Cobalt Block",
+      "item.cobalt_wireless.cobaltingot": "Cobalt Ingot",
+      "block.cobalt_wireless.cobaltblocksignal": "Cobalt Signal Block",
+      "block.cobalt_journey.cobaltblockwirelessoff": "Cobalt Wireless Block",
+      "item.cobalt_wireless.cobaltsword": "Cobalt Sword"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cobalt_wireless",
+    "modName": "Cobalt Wireless",
+    "version": "1.0.0",
+    "author": "Voxla",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator",
+    "modElementsPackage": "net.mcreator.cobaltwireless",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300335319
+}

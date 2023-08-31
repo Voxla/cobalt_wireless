@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cobalt_wireless:block/cobalt_block_signal",
+    "up": "cobalt_wireless:block/cobalt_block_wireless_on",
+    "north": "cobalt_wireless:block/cobalt_block_signal",
+    "east": "cobalt_wireless:block/cobalt_block_signal",
+    "south": "cobalt_wireless:block/cobalt_block_signal",
+    "west": "cobalt_wireless:block/cobalt_block_signal",
+    "particle": "cobalt_wireless:block/cobalt_block_signal"
+  },
+  "render_type": "solid"
+}

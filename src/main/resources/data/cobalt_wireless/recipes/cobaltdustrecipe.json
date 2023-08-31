@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "cobalt_wireless:cobaltshard"
+    }
+  ],
+  "result": {
+    "item": "cobalt_wireless:cobaltdust",
+    "count": 1
+  }
+}

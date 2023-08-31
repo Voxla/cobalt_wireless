@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="cobalt_wireless"
+version="1.0.0"
+displayName="Cobalt Wireless"
+credits="Created using mod maker MCreator"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="Voxla"
+
+[[dependencies.cobalt_wireless]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

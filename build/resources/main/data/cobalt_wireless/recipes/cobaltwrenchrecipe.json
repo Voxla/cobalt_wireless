@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " 1",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "1": {
+      "item": "cobalt_wireless:cobaltingot"
+    },
+    "2": {
+      "item": "cobalt_wireless:cobaltingot"
+    },
+    "3": {
+      "item": "cobalt_wireless:cobaltdust"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "cobalt_wireless:cobaltwrench",
+    "count": 1
+  }
+}

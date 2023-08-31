@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "cobalt_wireless:cobaltore",
+  "step": "underground_ores"
+}

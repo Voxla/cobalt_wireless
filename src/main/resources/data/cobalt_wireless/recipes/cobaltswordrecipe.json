@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "cobalt_wireless:cobaltingot"
+    },
+    "1": {
+      "item": "cobalt_wireless:cobaltdust"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "cobalt_wireless:cobaltsword",
+    "count": 1
+  }
+}

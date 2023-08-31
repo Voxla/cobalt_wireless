@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "cobalt_wireless:cobaltingot"
+    },
+    "1": {
+      "item": "cobalt_wireless:cobaltingot"
+    },
+    "2": {
+      "item": "cobalt_wireless:cobaltingot"
+    },
+    "4": {
+      "item": "cobalt_wireless:cobaltdust"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "cobalt_wireless:cobaltpickaxe",
+    "count": 1
+  }
+}

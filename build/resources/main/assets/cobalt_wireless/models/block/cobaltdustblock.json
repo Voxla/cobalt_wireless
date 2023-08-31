@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cobalt_wireless:block/cobalt_dust_block",
+    "up": "cobalt_wireless:block/cobalt_dust_block",
+    "north": "cobalt_wireless:block/cobalt_dust_block",
+    "east": "cobalt_wireless:block/cobalt_dust_block",
+    "south": "cobalt_wireless:block/cobalt_dust_block",
+    "west": "cobalt_wireless:block/cobalt_dust_block",
+    "particle": "cobalt_wireless:block/cobalt_dust_block"
+  },
+  "render_type": "solid"
+}
