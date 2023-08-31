@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "cobalt_wireless:cobaltingot"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "cobalt_wireless:cobaltingot"
+    },
+    "3": {
+      "item": "cobalt_wireless:cobaltingot"
+    },
+    "4": {
+      "item": "cobalt_wireless:cobaltdust"
+    },
+    "5": {
+      "item": "cobalt_wireless:cobaltingot"
+    },
+    "6": {
+      "item": "cobalt_wireless:cobaltingot"
+    },
+    "7": {
+      "item": "cobalt_wireless:cobaltingot"
+    },
+    "8": {
+      "item": "cobalt_wireless:cobaltingot"
+    }
+  },
+  "result": {
+    "item": "cobalt_wireless:cobaltblockwirelessoff",
+    "count": 1
+  }
+}

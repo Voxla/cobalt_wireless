@@ -427,6 +427,7 @@
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "cobaltwir321123eless",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

@@ -383,6 +383,19 @@
           "src/main/resources/data/cobalt_wireless/recipes/cobaltpickaxerecipe.json"
         ]
       }
+    },
+    {
+      "name": "Cobaltblocksignalrecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltblocksignalrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cobalt_wireless/recipes/cobaltblocksignalrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -427,6 +440,7 @@
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "cobaltwir321123eless",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

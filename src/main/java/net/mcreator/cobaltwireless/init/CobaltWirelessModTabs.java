@@ -22,11 +22,14 @@ public class CobaltWirelessModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(CobaltWirelessModBlocks.COBALTBLOCK.get().asItem());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(CobaltWirelessModBlocks.COBALTBLOCKWIRELESSOFF.get().asItem());
 			tabData.accept(CobaltWirelessModBlocks.COBALTBLOCKSIGNAL.get().asItem());
 			tabData.accept(CobaltWirelessModItems.COBALTWRENCH.get());
-			tabData.accept(CobaltWirelessModBlocks.COBALTBLOCK.get().asItem());
 			tabData.accept(CobaltWirelessModBlocks.COBALTDUSTBLOCK.get().asItem());
 		}
 
