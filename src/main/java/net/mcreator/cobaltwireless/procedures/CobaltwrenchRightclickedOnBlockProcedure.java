@@ -23,7 +23,7 @@ public class CobaltwrenchRightclickedOnBlockProcedure {
 			itemstack.getOrCreateTag().putDouble("BlockPosZ", z);
 			itemstack.getOrCreateTag().putBoolean("HasPos", true);
 			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal("Saved Position"), false);
+				_player.displayClientMessage(Component.literal("Saved Position"), true);
 		} else if (itemstack.getOrCreateTag().getBoolean("HasPos") && (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == CobaltWirelessModBlocks.COBALTBLOCKSIGNAL.get()) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = BlockPos.containing(x, y, z);
@@ -53,10 +53,10 @@ public class CobaltwrenchRightclickedOnBlockProcedure {
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
 			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal("Linked the \"Remote Block\" to the Signal Block"), false);
+				_player.displayClientMessage(Component.literal("Link the \"Signal Block\" to the \"Wireless Block\""), true);
 		} else {
 			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal("Right-click on a remote block to save the position"), false);
+				_player.displayClientMessage(Component.literal("Right-click on a \"Wireless Block\" to save the position"), true);
 		}
 	}
 }

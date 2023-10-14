@@ -4,12 +4,13 @@ license="MIT License"
 
 [[mods]]
 modId="cobalt_wireless"
-version="1.0.0"
+version="1.0.1"
 displayName="Cobalt Wireless"
 credits="Created using mod maker MCreator"
-displayURL="https://mcreator.net"
+displayURL="https://modrinth.com/mod/cobalt-wireless"
 logoFile="logo.png"
 authors="Voxla"
+description="This mod adds a new ore called Cobalt, a couple of new items, and a new way to use redstone."
 
 [[dependencies.cobalt_wireless]]
     modId="minecraft"
