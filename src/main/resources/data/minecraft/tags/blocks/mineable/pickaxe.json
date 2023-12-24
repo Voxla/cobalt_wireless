@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "cobalt_wireless:cobaltblockwirelessoff",
+    "cobalt_wireless:cobaltblocksignal",
+    "cobalt_wireless:cobaltblockwirelesson",
+    "cobalt_wireless:cobaltblock",
+    "cobalt_wireless:cobaltore",
+    "cobalt_wireless:cobaltdeepslateore",
+    "cobalt_wireless:cobaltdustblock"
+  ]
+}

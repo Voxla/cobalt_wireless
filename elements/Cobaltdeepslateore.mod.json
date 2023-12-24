@@ -35,14 +35,14 @@
     ],
     "name": "Deepslate Cobalt Ore",
     "specialInfo": [],
-    "hardness": 0.25,
+    "hardness": 4.5,
     "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "DECORATIONS"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": "CUSTOM:Cobaltshard"
     },

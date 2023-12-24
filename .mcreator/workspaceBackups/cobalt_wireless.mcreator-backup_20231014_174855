@@ -9,11 +9,11 @@
       "registry_name": "cobaltblocksignal",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cobaltwireless/block/CobaltblocksignalBlock.java",
           "src/main/resources/assets/cobalt_wireless/models/block/cobaltblocksignal.json",
           "src/main/resources/assets/cobalt_wireless/models/item/cobaltblocksignal.json",
-          "src/main/resources/assets/cobalt_wireless/blockstates/cobaltblocksignal.json",
-          "src/main/java/net/mcreator/cobaltwireless/block/entity/CobaltblocksignalBlockEntity.java"
+          "src/main/java/net/mcreator/cobaltwireless/block/CobaltblocksignalBlock.java",
+          "src/main/java/net/mcreator/cobaltwireless/block/entity/CobaltblocksignalBlockEntity.java",
+          "src/main/resources/assets/cobalt_wireless/blockstates/cobaltblocksignal.json"
         ]
       }
     },
@@ -26,10 +26,10 @@
       "registry_name": "cobaltblockwirelessoff",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cobalt_wireless/models/item/cobaltblockwirelessoff.json",
+          "src/main/resources/assets/cobalt_wireless/models/block/cobaltblockwirelessoff.json",
           "src/main/java/net/mcreator/cobaltwireless/block/CobaltblockwirelessoffBlock.java",
           "src/main/resources/assets/cobalt_wireless/blockstates/cobaltblockwirelessoff.json",
-          "src/main/resources/assets/cobalt_wireless/models/block/cobaltblockwirelessoff.json"
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltblockwirelessoff.json"
         ]
       }
     },
@@ -42,10 +42,10 @@
       "registry_name": "cobaltblockwirelesson",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cobalt_wireless/models/item/cobaltblockwirelesson.json",
-          "src/main/java/net/mcreator/cobaltwireless/block/CobaltblockwirelessonBlock.java",
+          "src/main/resources/assets/cobalt_wireless/models/block/cobaltblockwirelesson.json",
           "src/main/resources/assets/cobalt_wireless/blockstates/cobaltblockwirelesson.json",
-          "src/main/resources/assets/cobalt_wireless/models/block/cobaltblockwirelesson.json"
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltblockwirelesson.json",
+          "src/main/java/net/mcreator/cobaltwireless/block/CobaltblockwirelessonBlock.java"
         ]
       }
     },
@@ -58,8 +58,8 @@
       "registry_name": "cobaltwrench",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cobaltwireless/item/CobaltwrenchItem.java",
-          "src/main/resources/assets/cobalt_wireless/models/item/cobaltwrench.json"
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltwrench.json",
+          "src/main/java/net/mcreator/cobaltwireless/item/CobaltwrenchItem.java"
         ]
       }
     },
@@ -111,10 +111,10 @@
       "registry_name": "cobaltblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cobalt_wireless/models/block/cobaltblock.json",
-          "src/main/resources/assets/cobalt_wireless/models/item/cobaltblock.json",
           "src/main/resources/assets/cobalt_wireless/blockstates/cobaltblock.json",
-          "src/main/java/net/mcreator/cobaltwireless/block/CobaltblockBlock.java"
+          "src/main/java/net/mcreator/cobaltwireless/block/CobaltblockBlock.java",
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltblock.json",
+          "src/main/resources/assets/cobalt_wireless/models/block/cobaltblock.json"
         ]
       }
     },
@@ -189,14 +189,14 @@
       "registry_name": "cobaltore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cobaltwireless/block/CobaltoreBlock.java",
-          "src/main/resources/data/cobalt_wireless/worldgen/configured_feature/cobaltore.json",
-          "src/main/resources/data/cobalt_wireless/worldgen/placed_feature/cobaltore.json",
-          "src/main/resources/assets/cobalt_wireless/blockstates/cobaltore.json",
           "src/main/java/net/mcreator/cobaltwireless/world/features/ores/CobaltoreFeature.java",
+          "src/main/resources/data/cobalt_wireless/worldgen/configured_feature/cobaltore.json",
           "src/main/resources/assets/cobalt_wireless/models/block/cobaltore.json",
+          "src/main/java/net/mcreator/cobaltwireless/block/CobaltoreBlock.java",
           "src/main/resources/assets/cobalt_wireless/models/item/cobaltore.json",
-          "src/main/resources/data/cobalt_wireless/forge/biome_modifier/cobaltore_biome_modifier.json"
+          "src/main/resources/data/cobalt_wireless/forge/biome_modifier/cobaltore_biome_modifier.json",
+          "src/main/resources/assets/cobalt_wireless/blockstates/cobaltore.json",
+          "src/main/resources/data/cobalt_wireless/worldgen/placed_feature/cobaltore.json"
         ]
       }
     },
@@ -209,8 +209,8 @@
       "registry_name": "cobaltshard",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cobaltwireless/item/CobaltshardItem.java",
-          "src/main/resources/assets/cobalt_wireless/models/item/cobaltshard.json"
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltshard.json",
+          "src/main/java/net/mcreator/cobaltwireless/item/CobaltshardItem.java"
         ]
       }
     },
@@ -223,14 +223,14 @@
       "registry_name": "cobaltdeepslateore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cobalt_wireless/blockstates/cobaltdeepslateore.json",
-          "src/main/resources/data/cobalt_wireless/forge/biome_modifier/cobaltdeepslateore_biome_modifier.json",
-          "src/main/resources/data/cobalt_wireless/worldgen/configured_feature/cobaltdeepslateore.json",
-          "src/main/resources/assets/cobalt_wireless/models/item/cobaltdeepslateore.json",
           "src/main/java/net/mcreator/cobaltwireless/block/CobaltdeepslateoreBlock.java",
           "src/main/java/net/mcreator/cobaltwireless/world/features/ores/CobaltdeepslateoreFeature.java",
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltdeepslateore.json",
           "src/main/resources/assets/cobalt_wireless/models/block/cobaltdeepslateore.json",
-          "src/main/resources/data/cobalt_wireless/worldgen/placed_feature/cobaltdeepslateore.json"
+          "src/main/resources/data/cobalt_wireless/forge/biome_modifier/cobaltdeepslateore_biome_modifier.json",
+          "src/main/resources/data/cobalt_wireless/worldgen/placed_feature/cobaltdeepslateore.json",
+          "src/main/resources/assets/cobalt_wireless/blockstates/cobaltdeepslateore.json",
+          "src/main/resources/data/cobalt_wireless/worldgen/configured_feature/cobaltdeepslateore.json"
         ]
       }
     },
@@ -243,8 +243,8 @@
       "registry_name": "cobaltdust",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cobaltwireless/item/CobaltdustItem.java",
-          "src/main/resources/assets/cobalt_wireless/models/item/cobaltdust.json"
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltdust.json",
+          "src/main/java/net/mcreator/cobaltwireless/item/CobaltdustItem.java"
         ]
       }
     },
@@ -257,8 +257,8 @@
       "registry_name": "cobaltingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cobalt_wireless/models/item/cobaltingot.json",
-          "src/main/java/net/mcreator/cobaltwireless/item/CobaltingotItem.java"
+          "src/main/java/net/mcreator/cobaltwireless/item/CobaltingotItem.java",
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltingot.json"
         ]
       }
     },
@@ -272,9 +272,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/cobalt_wireless/blockstates/cobaltdustblock.json",
-          "src/main/java/net/mcreator/cobaltwireless/block/CobaltdustblockBlock.java",
+          "src/main/resources/assets/cobalt_wireless/models/item/cobaltdustblock.json",
           "src/main/resources/assets/cobalt_wireless/models/block/cobaltdustblock.json",
-          "src/main/resources/assets/cobalt_wireless/models/item/cobaltdustblock.json"
+          "src/main/java/net/mcreator/cobaltwireless/block/CobaltdustblockBlock.java"
         ]
       }
     },
@@ -396,6 +396,45 @@
           "src/main/resources/data/cobalt_wireless/recipes/cobaltblocksignalrecipe.json"
         ]
       }
+    },
+    {
+      "name": "Cobaltblockwirelessrecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltblockwirelessrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cobalt_wireless/recipes/cobaltblockwirelessrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltblockrecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltblockrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cobalt_wireless/recipes/cobaltblockrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobaltdustblockrecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltdustblockrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cobalt_wireless/recipes/cobaltdustblockrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -434,9 +473,10 @@
   "workspaceSettings": {
     "modid": "cobalt_wireless",
     "modName": "Cobalt Wireless",
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "description": "This mod adds a new ore called Cobalt, a couple of new items, and a new way to use redstone.",
     "author": "Voxla",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://modrinth.com/mod/cobalt-wireless",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -450,5 +490,5 @@
     "modElementsPackage": "net.mcreator.cobaltwireless",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300335319
+  "mcreatorVersion": 202300336712
 }

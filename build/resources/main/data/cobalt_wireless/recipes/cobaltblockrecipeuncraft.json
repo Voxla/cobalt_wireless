@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cobalt_wireless:cobaltblock"
+    }
+  ],
+  "result": {
+    "item": "cobalt_wireless:cobaltingot",
+    "count": 9
+  }
+}

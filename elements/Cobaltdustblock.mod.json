@@ -35,14 +35,14 @@
     ],
     "name": "Block of Cobalt Dust",
     "specialInfo": [],
-    "hardness": 0.25,
+    "hardness": 5.0,
     "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "REDSTONE"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },

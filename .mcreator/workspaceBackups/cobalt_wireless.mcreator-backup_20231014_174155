@@ -473,9 +473,10 @@
   "workspaceSettings": {
     "modid": "cobalt_wireless",
     "modName": "Cobalt Wireless",
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "description": "This mod adds a new ore called Cobalt, a couple of new items, and a new way to use redstone.",
     "author": "Voxla",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://modrinth.com/mod/cobalt-wireless",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

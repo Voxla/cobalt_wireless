@@ -35,14 +35,14 @@
     ],
     "name": "Cobalt Wireless Block",
     "specialInfo": [],
-    "hardness": 0.15000000000000002,
+    "hardness": 3.0,
     "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "No creative tab entry"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },

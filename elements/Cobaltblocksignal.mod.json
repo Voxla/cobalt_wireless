@@ -35,14 +35,14 @@
     ],
     "name": "Cobalt Signal Block",
     "specialInfo": [],
-    "hardness": 0.15000000000000002,
+    "hardness": 3.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "REDSTONE"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },

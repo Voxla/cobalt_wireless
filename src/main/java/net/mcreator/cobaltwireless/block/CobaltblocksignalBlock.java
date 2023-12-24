@@ -10,7 +10,7 @@ import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.TieredItem;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.MenuProvider;
@@ -26,7 +26,7 @@ import java.util.Collections;
 
 public class CobaltblocksignalBlock extends Block implements EntityBlock {
 	public CobaltblocksignalBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(0.15f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(3f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -41,7 +41,7 @@ public class CobaltblocksignalBlock extends Block implements EntityBlock {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}
